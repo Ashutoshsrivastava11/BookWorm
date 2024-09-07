@@ -1,7 +1,31 @@
 # BookWorm
 
 BookWorm is a comprehensive book management system designed to provide an intuitive user experience for managing books, reviews, and user authentication. This project is built with a Java Spring Boot backend and a React frontend, ensuring a seamless integration and robust functionality.
+### Functionality Overview
 
+- **Backend**:
+  - Provides RESTful APIs for managing books, users, and reviews.
+  - Includes authentication and role-based access control using JWT.
+  - Handles database operations and business logic through various services.
+
+- **Frontend**:
+  - Implements a responsive user interface with React.
+  - Allows users to view, add, and manage books and reviews.
+  - Provides user authentication and registration features.
+  - Includes context management for user sessions and API services for data handling.
+
+## Getting Started
+
+### Backend
+
+1. Navigate to the `backend/` directory.
+2. Run `mvn spring-boot:run` to start the Spring Boot application.
+
+### Frontend
+
+1. Navigate to the `frontend/` directory.
+2. Run `npm install` to install the required dependencies.
+3. Run `npm start` to start the React development server.
 ## Project Structure
 
 ### Backend
@@ -71,31 +95,7 @@ BookWorm is a comprehensive book management system designed to provide an intuit
       - `User.css`: Styles specific to user-related components.
       - `Review.css`: Styles specific to review-related components.
 
-### Functionality Overview
 
-- **Backend**:
-  - Provides RESTful APIs for managing books, users, and reviews.
-  - Includes authentication and role-based access control using JWT.
-  - Handles database operations and business logic through various services.
-
-- **Frontend**:
-  - Implements a responsive user interface with React.
-  - Allows users to view, add, and manage books and reviews.
-  - Provides user authentication and registration features.
-  - Includes context management for user sessions and API services for data handling.
-
-## Getting Started
-
-### Backend
-
-1. Navigate to the `backend/` directory.
-2. Run `mvn spring-boot:run` to start the Spring Boot application.
-
-### Frontend
-
-1. Navigate to the `frontend/` directory.
-2. Run `npm install` to install the required dependencies.
-3. Run `npm start` to start the React development server.
 
 ## Contributing
 
