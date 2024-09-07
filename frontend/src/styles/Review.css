@@ -1,0 +1,10 @@
+.review-list {
+    list-style: none;
+    padding: 0;
+}
+.review-list li {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
